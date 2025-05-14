@@ -2,7 +2,7 @@
 Great-Graph-2025
 
 # Some information about the study
-The study was designed to determine whether people adapt their attention to gradual changes in the task environment, and whether knowledge of the task structure (i.e., how they task environment changes across trials) influences attentional control in a dynamic environment.
+The study was designed to determine whether people adapt their attention to gradual changes in the task environment, and whether knowledge of the task structure (i.e., how the task environment changes across trials) influences attentional control in a dynamic environment.
 
 In this Adaptive Choice Visual Search (ACVS) task, participants were presented with an array of 54 blue, orange and green squares. Each square contains a single digit between 2 and 9. Participants were told that their goal was to locate a TARGET square and report the number inside the target square. 
 
@@ -34,7 +34,7 @@ To determine whether certainty about _when_ to change targets is important for e
 Note that this is datafile has been _processed_ to exclude participants who failed a series of instruction checks, and also excluded trials where participants failed to make a response before the timeout period or if they responded with a number that did not belong to either target squares.
 
 (2) One tif file illustrating a single trial in the experiment + pre-trial screen based on LearningCondition assignment.<br/>
-![Trial Schematics](/Fig_Exp1.tif)
+![Trial Schematics](./Fig_Exp1.tif)
 
 (3) Demo of the experiment. Go to the Program Demo folder and click on the index.html file - this will run the experiment in your browser. It is currently set to only run one block of the ACVS, followed by the two test (Strategy and Awareness) questions.
 
