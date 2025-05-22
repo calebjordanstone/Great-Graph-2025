@@ -31,7 +31,7 @@ To determine whether certainty about _when_ to change targets is important for e
 
 # What is included in this repository
 (1) One excel file ("2025_GreatGraphData_v2.xlsx") with participant data in long format.<br/>
-Note that this is datafile has been _processed_ to exclude participants who failed a series of instruction checks, and also excluded trials where participants failed to make a response before the timeout period or if they responded with a number that did not belong to either target squares.
+Note that this is datafile has been _processed_ to exclude participants who failed a series of instruction checks, and also excluded trials where participants failed to make a response before the timeout period or if they responded with a number that did not belong to either target squares.<br/>
 UPDATE 22/5/2025: Pivot table included in file with average proportion of blue targets selected across different trial types average over blocks (for each participant).
 
 (2) One tif file illustrating a single trial in the experiment + pre-trial screen based on LearningCondition assignment.<br/>
@@ -60,7 +60,7 @@ E.g., BLUE_1 is the first trial in a sequence starting with more blue items (27 
 
 (8) selectedColour = Describes which target was selected by the participant. Based on the number reported, we can determine whether participants selected the blue or orange target on that trial.
 
-UPDATE 22/5/2025: 
+UPDATE 22/5/2025:<br/>
 (9) colourBLUE = Recode column (8) into binary value: BLUE = 1, ORANGE = 0. This was added to allow proportions in pivot table.
 
 (10) Strategy = Which search strategy participants reported using during the experiment (based on forced-choice selection).
