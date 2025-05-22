@@ -30,8 +30,9 @@ Participants completed 30 sequences across 5 blocks (6 sequences per block) of t
 To determine whether certainty about _when_ to change targets is important for effective attentional control, we presented participants in the **Instructed** condition with information about the number of blue and orange squares at the start of every trial. Participants in the **Experience** group did not receive this pre-trial information. All other features of the task were identical for both Experience and Instructed participants.
 
 # What is included in this repository
-(1) One csv file ("2025_GreatGraphData.csv") with participant data in long format.<br/>
+(1) One excel file ("2025_GreatGraphData_v2.xlsx") with participant data in long format.<br/>
 Note that this is datafile has been _processed_ to exclude participants who failed a series of instruction checks, and also excluded trials where participants failed to make a response before the timeout period or if they responded with a number that did not belong to either target squares.
+UPDATE 22/5/2025: Pivot table included in file with average proportion of blue targets selected across different trial types average over blocks (for each participant).
 
 (2) One tif file illustrating a single trial in the experiment + pre-trial screen based on LearningCondition assignment.<br/>
 ![Trial Schematics](./Fig_Exp1.tif)
@@ -59,7 +60,10 @@ E.g., BLUE_1 is the first trial in a sequence starting with more blue items (27 
 
 (8) selectedColour = Describes which target was selected by the participant. Based on the number reported, we can determine whether participants selected the blue or orange target on that trial.
 
-(9) Strategy = Which search strategy participants reported using during the experiment (based on forced-choice selection).
+UPDATE 22/5/2025: 
+(9) colourBLUE = Recode column (8) into binary value: BLUE = 1, ORANGE = 0. This was added to allow proportions in pivot table.
+
+(10) Strategy = Which search strategy participants reported using during the experiment (based on forced-choice selection).
     Either **Flexible**, **Persistent** or **Random**
 
 What they selected:<br/>
@@ -67,7 +71,7 @@ What they selected:<br/>
     **Persistent**: "I searched for a single colour for an extended period of time and avoided switching between colours."<br/>
     **Random**: "I had no particular strategy and decided on the fly which target to search for."
 
-(10) SequenceAwareness = What participants reported (in a forced choice response) about how the number of blue and orange items changed during the experiment.
+(11) SequenceAwareness = What participants reported (in a forced choice response) about how the number of blue and orange items changed during the experiment.
     Either **Sequential**, **Random** or **Unaware**<br/>
 
 What they selected:<br/>
